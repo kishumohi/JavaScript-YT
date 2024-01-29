@@ -11,18 +11,17 @@ Rules for Variable define in Java Script:
 - Names are case sensitive (y and Y are different variables).
 - Reserved words (like JavaScript keywords) cannot be used as names.
 */
-// [1] var 
+// [1] var
 var Animal = "Lion";
 var Animal = "Tiger";
 
 // Block Scope
 {
-    var Animal = "Beer";
-    // console.log(Animal);
+  var Animal = "Beer";
+  // console.log(Animal);
 }
 
 // console.log(Animal);
-
 
 // [2] const
 const authorName = "BBA Coder";
@@ -34,12 +33,12 @@ authorName2 = "you";
 // console.log(authorName2);
 // Block Scope
 {
-    console.log(authorName2);
-
+  console.log(authorName2);
 }
 // --------------------------------------------
 {
-    let blockauthor = "Kishan";
-    // console.log(blockauthor);
+  let blockauthor = "Kishan";
+  // console.log(blockauthor);
 }
+console.log(blockauthor);
 console.log(blockauthor);
